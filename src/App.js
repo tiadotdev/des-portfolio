@@ -3,8 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Hello I'm Des.</h1>
+    <div class="des-portfolio">
+      <h1>Hello, I am Des.</h1>
+      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }
